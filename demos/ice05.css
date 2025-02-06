@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    padding: 80px;
+    max-width: 100%;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+body{
+    text-align: center;
+}
+
+#top {
+    max-width: 100%;
+}
+
+img desk {
+    border-radius: 50%;
+}
+
