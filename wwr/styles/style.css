@@ -107,16 +107,17 @@ header {
     color: #64f58d;
 }
 
-home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr 1fr 0.5fr 4fr 0.75fr 0.75fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr 1fr 0.5fr 1.5fr 0.75fr 0.75fr 1fr;
 }
 
 .card-img {
     border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 
 .card-img:hover {
@@ -158,6 +159,7 @@ home-grid {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 
 .msg p {
