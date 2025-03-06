@@ -1,0 +1,48 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #004F98;
+    color: white;
+    max-height: 100px;
+}
+
+#content{
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Roboto Slab", serif;
+}
+
+#post-date{
+    font-size: small;
+    color: #004F98;
+}
+
+#words{
+    color:gray;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+#first{
+    grid-column: 1/2;
+}
+
+#second{
+    grid-column: 2/3;
+}
+
+#third{
+    grid-column: 3/4;
+}
+
+#top{
+    grid-row: 1/2;
+}
+
+#bottom{
+    grid-row: 2/3;
+}
