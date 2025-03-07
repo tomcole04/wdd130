@@ -241,3 +241,17 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+
+.faq-grid{
+    padding: 50px;
+}
+
+.wide {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.group {
+    float: right;
+    max-width: 50%;
+}
