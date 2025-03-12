@@ -31,10 +31,12 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    color: #78c0e0;
 }
 
 nav a:hover {
-    background-color: black
+    background-color: #78c0e0;
+    color: #7a5c58;
 }
 
 #hero-msg h1, #hero-msg h4 {
