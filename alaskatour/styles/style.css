@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Walter+Turncoat&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    background-color: #3B4072;
+    grid-template-columns: 120px auto;
+}
+
+#logo {
+    width: 80px;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo_link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a {
+    color: #FAF3DD;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    color:#3B4072;
+    background-color: #FAF3DD;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+body {
+    background-color: #618D7C;
+    margin: 0;
+    padding: 0;
+}
+
+#main_banner {
+    width: 100%;
+    grid-column: 1/11;
+}
+
+main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h1 {
+    color: #FAF3DD;
+    font-family: 'Rock Salt', Times, Serif;
+    justify-self: center;
+}
+
+#mountains {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #FAF3DD;
+    font-family: 'Walter Turncoat', Times, Serif;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: #3B4072;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #618D7C;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
