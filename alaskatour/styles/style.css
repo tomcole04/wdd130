@@ -81,16 +81,40 @@ p {
     color: #FAF3DD;
     font-family: 'Walter Turncoat', Times, Serif;
     max-width: 100%;
-    text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
 }
+
+#ketchikan-town {
+  max-width: 100%;
+}
+
+#ketchikan-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+
+  p:nth-of-type(1) {
+    grid-column: 5/10;
+    grid-row: 2/3;
+  }
+  p:nth-of-type(2) {
+    grid-column: 5/10;
+    grid-row: 3/4;
+    padding-top: 30px;
+  }
+}
+
 
 /* Style the Image Used to Trigger the Modal */
 #totems {
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    max-width: 100%;
   }
   
   #totems:hover {opacity: 0.7;}
