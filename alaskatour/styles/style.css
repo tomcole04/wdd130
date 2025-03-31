@@ -32,7 +32,6 @@ nav a {
     padding: 35px;
     justify-content: center;
     align-content: center;
-    margin: 0 auto;
 }
 
 nav a:hover {
@@ -94,6 +93,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 100px 100px 100px 100px;
+}
 
   p:nth-of-type(1) {
     grid-column: 5/10;
@@ -104,7 +104,6 @@ p {
     grid-row: 3/4;
     padding-top: 30px;
   }
-}
 
 
 /* Style the Image Used to Trigger the Modal */
